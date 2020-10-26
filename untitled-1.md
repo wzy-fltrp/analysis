@@ -34,13 +34,15 @@ train_data.dropna(inplace=True)
 #KNN算法填充缺失值
 from fancyimpute import KNN
 train_data_x = pd.DataFrame(KNN(k=6).fit_transform(train_data_x), columns=features)
-
-
-
-
 ```
 
 ## 异常数据的检测
+
+### 方法介绍
+
+1. 基于正态分布的一元离群点检测方法。若存在符合正态分布的n个点，那么可以计算出这n个点的均值μ和标准差σ，在正态分布的条件下，区域μ±σ包含了99.7%的数据，若某个值距离分布的均值μ超过了3σ，那么这个值就可以被简单的标记为一个异常数据；
+2. 
+
 
 
 
