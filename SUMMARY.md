@@ -10,4 +10,5 @@
 * [时间序列分析（预测）](shi-jian-xu-lie-fen-xi.md)
 * [回归分析](hui-gui-fen-xi.md)
 * [分类问题](fen-lei-wen-ti.md)
+* [EXCEL数据处理方法汇总](excel-shu-ju-chu-li-fang-fa-hui-zong.md)
 
