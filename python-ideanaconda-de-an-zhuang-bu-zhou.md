@@ -1,2 +1,2 @@
-# Python IDE（Anaconda）的安装步骤
+# Python IDE（Anaconda）的安装
 
