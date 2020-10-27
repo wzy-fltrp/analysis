@@ -17,7 +17,54 @@
 Z检验用于**大样本\(即样本容量大于30\)平均值差异性检验的方法（总体的方差已知）**。它是用**标准正态分布的理论来推断差异发生的概率，从而比较两个平均数的差异是否显著**，因此需要两组数据均符合正态分布，当然在实际场景中数据比较复杂，符合偏正态分布也是可以使用Z检验对数据进行检验的，下面介绍一下Z检验的步骤：
 
 1. 建立原假设 $$H_0:μ_1=μ_2$$ ，即先假定两组平均数之间没有差异；
-2. 计算统计量Z值，这样的检测
+2. 计算统计量Z值，这样的检测分为两种，_一种是检验一个样本平均数（X）与已知的总体平均数（_ $$μ_0$$ _）之间的差异是否显著，另一种是检验两个总体的两组样本平均数的差异性，从而判断它们各自代表的总体的差异是否显著_：  
+   1）检验一个样本平均数（X）与已知的总体平均数（ $$μ_0$$ ）之间的差异是否显著  
+                                                                                   $$Z=\frac{\overline{X}-μ_0}{S/\sqrt{n}}$$ 
+
+   其中： $$\overline{X}$$ 为检验样本的均值，n为样本容量，S为已知总体的标准差， $$μ_0$$为已知总体的平均数；  
+   2）检验两个总体的两组样本平均数的差异性  
+                                                                                    $$Z=\frac{\overline{X_1}-\overline{X_2}}{\sqrt{\frac{S_1}{n_1}+\frac{S_2}{n_2}}}$$                               
+
+3. 通过比较计算所得Z值与理论Z值，推断发生的概率，依据如下Z值与差异显著性关系表做出相应的判断：
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align:left">|Z|</th>
+      <th style="text-align:left">P&#x503C;</th>
+      <th style="text-align:left">&#x5DEE;&#x5F02;&#x7A0B;&#x5EA6;</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align:left"></td>
+      <td style="text-align:left"></td>
+      <td style="text-align:left">
+        <p>&#x5DEE;&#x5F02;&#x975E;&#x5E38;&#x663E;&#x8457;</p>
+        <p>&#x62D2;&#x7EDD;&#x539F;&#x5047;&#x8BBE;</p>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align:left"></td>
+      <td style="text-align:left"></td>
+      <td style="text-align:left">
+        <p>&#x5DEE;&#x5F02;&#x663E;&#x8457;</p>
+        <p>&#x62D2;&#x7EDD;&#x539F;&#x5047;&#x8BBE;</p>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align:left"></td>
+      <td style="text-align:left"></td>
+      <td style="text-align:left">
+        <p>&#x5DEE;&#x5F02;&#x4E0D;&#x663E;&#x8457;</p>
+        <p>&#x63A5;&#x53D7;&#x539F;&#x5047;&#x8BBE;</p>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+可以简单理解，对于Z检验来说，当P值小于0.05，即可认为两组数据的总体平均数具有显著差异。  
+通过列举一个
 
 
 
