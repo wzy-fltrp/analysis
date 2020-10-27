@@ -11,4 +11,5 @@
 * [回归分析](hui-gui-fen-xi.md)
 * [分类问题](fen-lei-wen-ti.md)
 * [EXCEL数据处理方法汇总](excel-shu-ju-chu-li-fang-fa-hui-zong.md)
+* [Python IDE（Anaconda）的安装步骤](python-ideanaconda-de-an-zhuang-bu-zhou.md)
 
