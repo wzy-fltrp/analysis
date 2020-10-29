@@ -10,7 +10,6 @@
 * [时间序列分析（预测）](shi-jian-xu-lie-fen-xi.md)
 * [回归分析](hui-gui-fen-xi.md)
 * [分类问题](fen-lei-wen-ti.md)
-* [神经网络概述](shen-jing-wang-luo-gai-shu.md)
 * [EXCEL数据处理方法汇总](excel-shu-ju-chu-li-fang-fa-hui-zong.md)
 * [Python IDE（Anaconda）的安装](python-ideanaconda-de-an-zhuang-bu-zhou.md)
 
