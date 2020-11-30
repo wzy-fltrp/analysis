@@ -39,7 +39,7 @@
 * RIGHT函数，用法同Left，只是取数方向相反，从右侧开始取数
 * MID函数，从指定位置开始提取特定数目的字符；MID\(text, start\_num, num\_chars\)，text包含要提取字符的文本，start\_num文本中要提取第一个字符的位置，num\_chars希望提取的字符个数
 
-![](.gitbook/assets/image%20%2812%29.png)
+![](.gitbook/assets/image%20%2813%29.png)
 
 ### 信息反馈函数
 
@@ -63,7 +63,7 @@
 3. 注意事项：要查找的值需要始终位于所在区域的第一列
 4. 例子，在如下的例子中，要查找的值在第E列（name为孙、李、我），要查找的区域为name列和score列，若查找成功，则返回查找区域的第2列（即score），从而实现这样一个不同表的score匹配（因为要查找的值和查找区域可以分别在两个sheet或excel表中）
 
-![](.gitbook/assets/image%20%2810%29.png)
+![](.gitbook/assets/image%20%2811%29.png)
 
 #### Hlookup函数
 
@@ -81,7 +81,7 @@
 2. 语法：IF\(logical\_test, value\_if\_true, \[value\_if\_false\]\)，当logical\_test成立时，返回value\_if\_true，当logical\_test不成立时，返回value\_if\_false。IF函数最多嵌套64个。
 3. 例子：如果当A2=3时，则显示may
 
-![](.gitbook/assets/image%20%289%29.png)
+![](.gitbook/assets/image%20%2810%29.png)
 
 ### 数学统计函数
 
@@ -96,7 +96,7 @@
 2. 语法：SUMIF\(range, criteria,\[sum\_range\]\)，range为需要计算的区域，字符数不能超过255个；criteria求和的条件，可以使用通配符？和\*；sun\_range为可选条件，指定实际求和的区域。
 3. 例子：对C列（school）中为高中的学生进行D列（score）求和。
 
-![](.gitbook/assets/image%20%2816%29.png)
+![](.gitbook/assets/image%20%2817%29.png)
 
 #### Sumifs函数：
 
@@ -109,14 +109,14 @@
 2. 语法：COUNT\(value1, \[value2\], ...\)，value1为要计算数字个数的第一项、单元格应用或区域，value2可选参数，作用同value1
 3. 说明：参数为数字、日期、代表数字的文本（如“1”）、逻辑值和直接键入参数列表中的数字将被计算在内
 
-![](.gitbook/assets/image%20%2815%29.png)
+![](.gitbook/assets/image%20%2816%29.png)
 
 #### Countif函数
 
 1. 作用：用于统计满足某个条件的单元格的数量
 2. 语法：COUNTIF\(range,criteria\)，类似SUMIF初级使用方法
 
-![](.gitbook/assets/image%20%2813%29.png)
+![](.gitbook/assets/image%20%2814%29.png)
 
 #### Countifs函数
 
@@ -138,6 +138,8 @@
 2. 语法：RANK\(number,ref,\[order\]\)，number需要排位的数字；ref数字排列的数组；order可选参数，=0或省略降序排列，=不为零升序排列
 
 ![](.gitbook/assets/image%20%284%29.png)
+
+![](.gitbook/assets/image%20%289%29.png)
 
 ### 格式显示函数
 
@@ -161,7 +163,7 @@ PROPER\(text\)将文本字符串的首字母转换成大写，将其余字母转
 1. 作用：将数字舍入到指定的小数位数，使用句点和逗号，以十进制数格式对该数进行格式设置，并以文本形式返回结果。
 2. 语法：FIXED\(number, \[decimals\], \[no\_commas\]\)，number要进行四舍五入并转换为本文的数字，decimals（可选）小数点右边的位数，no\_commas（可选）逻辑值，如果为TRUE则会禁止FIXED返回的文本包含逗号。
 
-![](.gitbook/assets/image%20%2811%29.png)
+![](.gitbook/assets/image%20%2812%29.png)
 
 
 
