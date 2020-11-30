@@ -128,7 +128,14 @@
 1. 作用：计算不为空的单元格的个数
 2. 语法：COUNTA\(value1, \[value2\], ...\)，value1表示要计数区域，value2可选参数，作用同value1
 
+#### Countblank函数
 
+用法：COUNTBLANK（range）计算选中区域的空单元格个数
+
+#### Rank函数
+
+1. 用法：返回一列数字的数字排位， 数字的排位是其相对于列表中其他值的大小
+2. 语法：RANK\(number,ref,\[order\]\)，number需要排位的数字；ref数字排列的数组；order可选参数，=0或省略降序排列，=不为零升序排列。
 
 
 
