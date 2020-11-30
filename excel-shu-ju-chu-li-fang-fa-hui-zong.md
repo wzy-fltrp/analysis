@@ -17,6 +17,54 @@
 
 ![](.gitbook/assets/image%20%282%29.png)
 
+#### Replace函数
+
+1. 作用：将特定位置的字符串替换为不同的文本字符
+2. 语法：REPLACE\(old\_text, start\_num, num\_chars, new\_text\)，old\_text为需要替换的文本，start\_num替换字符的位置，num\_chars利用new\_text替换的字符数，new\_text要替换old\_text的新文本。
+3. 例子：在如下的例子中，便将apple的第2个字符（p）起，连续三个字符（ppl）替换为@
+
+![](.gitbook/assets/image%20%284%29.png)
+
 #### Substitue函数
 
-1. 
+1. 作用：在某一文本字符串中替换指定的文本
+2. 语法：SUBSTITUTE\(text, old\_text, new\_text, \[instance\_num\]\)，text为包含需要替换的文本，old\_text为需要替换的文本，new\_text为替换old\_text的文本，instance\_num为可选参数，指定了数字则只替换相应顺序的old\_text，否则全部替换
+3. 和Replace函数的区别：Substitue根据文本内容进行替换，Replace根据字符位置进行替换
+
+![](.gitbook/assets/image%20%285%29.png)
+
+#### 三种提取字符的函数（LEFT函数、RIGHT函数以及MID函数）
+
+* LEFT函数，从文本字符串的第一个字符开始返回指定个数的字符；LEFT\(text, \[num\_chars\]\)，text包含要提取的字符，num\_chars为指定要提取的字符数量，必须≥0，如果大于文本长度，则返回全部文本，如果省略则假定其值为1
+* RIGHT函数，用法同Left，只是取数方向相反，从右侧开始取数
+* MID函数，从指定位置开始提取特定数目的字符；MID\(text, start\_num, num\_chars\)，text包含要提取字符的文本，start\_num文本中要提取第一个字符的位置，num\_chars希望提取的字符个数
+
+![](.gitbook/assets/image%20%286%29.png)
+
+### 信息反馈函数
+
+#### Exact函数
+
+1. 作用：比较两个文本字符串，如果它们完全相同，则返回 TRUE，否则返回 FALSE。 函数 EXACT 区分大小写，但忽略格式上的差异。 使用 EXACT 可以检验在文档中输入的文本。
+2. 语法：EXACT\(text1, text2\)，text1和text2两个需要比较的字符串
+
+#### IS函数
+
+作用： 此类函数可检验指定值并根据结果返回 TRUE 或 FALSE。 在对某一值执行计算或执行其他操作之前，可以使用 **IS** 函数获取该值的相关信息
+
+![](.gitbook/assets/image%20%287%29.png)
+
+### 查找引用函数
+
+#### Vlookup函数
+
+1. 作用：在表格区域中按行查找对应内容
+2. 语法：VLOOKUP（要查找的值，要在其中查找值的区域，区域中包含返回值的列号，精确匹配或近似匹配 – 指定为 0/FALSE 或 1/TRUE）
+3. 注意事项：要查找的值需要始终位于所在区域的第一列
+
+#### Hlookup函数
+
+1. 作用：
+
+
+
