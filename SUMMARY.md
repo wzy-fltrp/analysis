@@ -8,7 +8,6 @@
 * [相关（一致性）分析](xiang-guan-fen-xi.md)
 * [聚类分析](ju-lei-fen-xi.md)
 * [回归分析](hui-gui-fen-xi.md)
-* [分类问题](fen-lei-wen-ti.md)
 * [EXCEL数据处理方法汇总](excel-shu-ju-chu-li-fang-fa-hui-zong.md)
 * [Python IDE（Anaconda）的安装](python-ideanaconda-de-an-zhuang-bu-zhou.md)
 
